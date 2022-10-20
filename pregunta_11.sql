@@ -39,4 +39,4 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT COUNT(*) AS "CANT" FROM tbl1
-WHERE c14 LIKE '2018%';
+WHERE strftime('%Y', c14)="2018";
